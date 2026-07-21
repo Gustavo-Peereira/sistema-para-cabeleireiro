@@ -1,8 +1,8 @@
-# 💈 Sistema de Agendamento para Salão de Beleza
+#  Sistema de Agendamento para Salão de Beleza
 
 Sistema web completo de agendamento para salão de beleza, desenvolvido com arquitetura moderna e foco em usabilidade, segurança e escalabilidade.
 
-## 📋 Índice
+##  Índice
 
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
@@ -15,11 +15,11 @@ Sistema web completo de agendamento para salão de beleza, desenvolvido com arqu
 - [API](#api)
 - [Próximos Passos](#próximos-passos)
 
-## 🎯 Visão Geral
+##  Visão Geral
 
 Sistema desenvolvido para gerenciar agendamentos de um salão de beleza com múltiplos profissionais e clientes compartilhados. Implementa multi-tenancy (preparado para múltiplos salões), autenticação JWT, controle de permissões por role e regras de negócio robustas para prevenir conflitos de horário.
 
-### ✨ Destaques
+###  Destaques
 
 - ✅ **Multi-tenancy** - Isolamento de dados por salão (salon_id)
 - ✅ **RBAC** - Controle de acesso baseado em papéis (ADMIN / PROFESSIONAL)
@@ -28,7 +28,7 @@ Sistema desenvolvido para gerenciar agendamentos de um salão de beleza com múl
 - ✅ **API RESTful** - Backend bem estruturado com Node.js + Express
 - ✅ **Banco Relacional** - MySQL com Prisma ORM
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 ### ✅ Implementadas
 
@@ -74,7 +74,7 @@ Sistema desenvolvido para gerenciar agendamentos de um salão de beleza com múl
 - Próximos agendamentos
 - Visão adaptada por perfil
 
-### 🚧 Próximas Funcionalidades
+###  Próximas Funcionalidades
 
 - Agenda visual (calendar view)
 - Lembretes por WhatsApp
@@ -85,7 +85,7 @@ Sistema desenvolvido para gerenciar agendamentos de um salão de beleza com múl
 - Gestão de comissões
 - Controle de estoque
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 ### Backend
 - **Node.js** - Runtime JavaScript
@@ -106,7 +106,7 @@ Sistema desenvolvido para gerenciar agendamentos de um salão de beleza com múl
 - **Zod** - Validação de schemas
 - **Notistack** - Sistema de notificações
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 ```
 ┌─────────────────────────────────────────┐
@@ -143,7 +143,7 @@ Salons (salões)
 
 Todas as tabelas possuem `salon_id` para isolamento multi-tenant.
 
-## 📦 Instalação
+##  Instalação
 
 ### Pré-requisitos
 
@@ -209,7 +209,7 @@ npm run dev
 
 O frontend estará em: `http://localhost:5173`
 
-## 🎮 Uso
+##  Uso
 
 ### Acesso ao Sistema
 
@@ -232,7 +232,7 @@ Após executar o seed, você terá as seguintes credenciais:
 5. **Agendamentos** - Crie e gerencie agendamentos
 6. **Bloqueios** - Bloqueie horários quando necessário
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 projeto_cabeleleiro/
@@ -264,7 +264,7 @@ projeto_cabeleleiro/
 └── README.md
 ```
 
-## 👥 Permissões e Roles
+##  Permissões e Roles
 
 ### ADMIN (Administrador/Gerente)
 
@@ -292,7 +292,7 @@ projeto_cabeleleiro/
 - Ver agendamentos de outros profissionais
 - Acessar configurações do salão
 
-## 🔌 API
+##  API
 
 ### Endpoints Principais
 
@@ -370,7 +370,7 @@ Authorization: Bearer {token}
 - Isolamento de dados por tenant (salon_id)
 - Proteção contra SQL Injection (Prisma)
 
-## 🎨 Regras de Negócio
+##  Regras de Negócio
 
 ### Conflito de Horário
 
@@ -404,7 +404,7 @@ endDatetime = startDatetime + service.duration (minutos)
 
 ISC
 
-## 👨‍💻 Desenvolvimento
+##  Desenvolvimento
 
 Este sistema foi desenvolvido seguindo as melhores práticas de:
 
