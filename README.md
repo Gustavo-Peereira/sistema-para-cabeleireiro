@@ -400,31 +400,6 @@ endDatetime = startDatetime + service.duration (minutos)
 - **NO_SHOW** - Cliente não compareceu
 - **CANCELED** - Agendamento cancelado
 
-## 🚀 Próximos Passos
-
-### Prioridade Alta
-- [ ] Implementar agenda visual (calendar view)
-- [ ] Adicionar página de gestão de profissionais (ADMIN)
-- [ ] Implementar página de configurações do salão
-- [ ] Adicionar filtros avançados nas listagens
-- [ ] Implementar busca global
-
-### Prioridade Média
-- [ ] Sistema de lembretes (WhatsApp/SMS)
-- [ ] Exportação de relatórios (PDF/Excel)
-- [ ] Histórico completo de atendimentos por cliente
-- [ ] Dashboard com gráficos e métricas
-- [ ] Sistema de pagamentos (integração)
-
-### Prioridade Baixa
-- [ ] Tema escuro
-- [ ] PWA (offline-first)
-- [ ] Notificações push
-- [ ] Sistema de avaliações
-- [ ] Controle de comissões
-- [ ] Gestão de estoque
-- [ ] Multi-idioma
-
 ## 📄 Licença
 
 ISC
